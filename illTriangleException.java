@@ -22,7 +22,7 @@ public class IllegalTriangleException {
 
 
         } catch (Exception e) {
-            System.out.println("Xay ra ngoai le");
+            System.out.println("Xay ra ngoai le" + e.getMessage());
 
         }
     }
